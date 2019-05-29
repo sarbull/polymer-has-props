@@ -9,10 +9,11 @@
       }
     </style>
 
-    <!-- <template is="dom-if" if="{{ hasLoaded }}"> -->
-      <h2>Hello [[prop1]]!</h2>
+    <h2>Hello [[prop1]]!</h2>
+
+    <template is="dom-if" if="{{ hasLoaded }}">
       <h2>Hello [[prop2]]!</h2>
-    <!-- </template> -->
+    </template>
   </template>
 
   <script>
@@ -32,6 +33,10 @@
 
       static get properties() {
         return {
+          hasLoaded: {
+            type: Boolean,
+            value: false
+          },
           prop1: {
             type: String,
             value: 'prop1 value'
@@ -62,6 +67,8 @@
       }
 
       componentWillReceiveProps() {
+        this.hasLoaded = true;
+
         console.log('componentWillReceiveProps() -> Actual component ready');
         console.log(this.prop1, this.prop2);
       }
