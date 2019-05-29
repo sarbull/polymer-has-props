@@ -1,8 +1,8 @@
 {
   "name": "polymer-will-receive-props",
   "version": "0.1.1",
-  "main": "src/index.js",
-  "homepage": "https://github.com/sarbull/polymer-has-props",
+  "main": "polymer-will-receive-props.js",
+  "homepage": "https://github.com/sarbull/polymer-will-receive-props",
   "authors": [
     "Sirbu Nicolae-Cezar <sirbunicolaecezar@gmail.com>"
   ],
