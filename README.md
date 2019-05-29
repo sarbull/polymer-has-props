@@ -59,3 +59,5 @@ or start the component with the polymer-cli.
 ```bash
 $ polymer serve -o -c
 ```
+
+![Demo](https://raw.githubusercontent.com/sarbull/polymer-will-receive-props/master/docs/demo.gif)

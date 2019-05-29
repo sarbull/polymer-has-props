@@ -1,4 +1,5 @@
 <link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="./components/custom-loader.html">
 <script src="./polymer-will-receive-props.js"></script>
 
 <dom-module id="polymer-will-receive-props">
@@ -13,6 +14,10 @@
 
     <template is="dom-if" if="{{ hasLoaded }}">
       <h2>Hello [[prop2]]!</h2>
+    </template>
+
+    <template is="dom-if" if="{{ !hasLoaded }}">
+      <custom-loader></custom-loader>
     </template>
   </template>
 
