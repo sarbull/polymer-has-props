@@ -1,5 +1,5 @@
 {
-  "name": "polymer-has-props",
+  "name": "polymer-will-receive-props",
   "version": "0.1.0",
   "main": "src/index.js",
   "homepage": "https://github.com/sarbull/polymer-has-props",
