@@ -4,7 +4,7 @@ Polymer helper for running a callback after list of properties have value differ
 
 # How to use
 
-### Step 0: Pretend a property is being set later
+### Step 0: Pretend a property is being set later, check the demo folder
 ```html
 <!doctype>
 <html>
@@ -27,9 +27,9 @@ Polymer helper for running a callback after list of properties have value differ
 ```js
 /*
  * Use second parameter for debug
- * class ExampleComponent extends PolymerWillReceiveProps(Polymer.Element, true) {
+ * class PolymerWillReceivePropsComponent extends PolymerWillReceiveProps(Polymer.Element, true) {
 */
-class ExampleComponent extends PolymerWillReceiveProps(Polymer.Element) {
+class PolymerWillReceivePropsComponent extends PolymerWillReceiveProps(Polymer.Element) {
 ```
 
 ### Step 2: Add custom observers, watched properties on the web component
