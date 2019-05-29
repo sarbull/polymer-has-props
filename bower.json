@@ -1,0 +1,30 @@
+{
+  "name": "polymer-has-props",
+  "main": "src/index.js",
+  "homepage": "https://github.com/sarbull/polymer-has-props",
+  "authors": [
+    "Sirbu Nicolae-Cezar <sirbunicolaecezar@gmail.com>"
+  ],
+  "description": "Polymer helper for running a callback after a list of properties have value different from 'undefined'.",
+  "keywords": [
+    "polymer",
+    "has",
+    "props"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  }
+}
