@@ -4,6 +4,24 @@ Polymer helper for running a callback after list of properties have value differ
 
 # How to use
 
+### Step 0: Pretend a property is being set later
+```html
+<!doctype>
+<html>
+  <body>
+    <polymer-will-receive-props></polymer-will-receive-props>
+
+    <script>
+      setTimeout(() => {
+        let polymerWillReceiveProps = document.querySelector('polymer-will-receive-props');
+
+        polymerWillReceiveProps.prop2 = 'prop2 value';
+      }, 1200);
+    </script>
+  </body>
+</html>
+```
+
 ### Step 1: Extend `PolymerWillReceiveProps` mixin
 
 ```js
