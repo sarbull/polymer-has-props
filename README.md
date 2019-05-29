@@ -1,4 +1,4 @@
-# polymer-has-props
+# polymer-will-receive-props
 
 Polymer helper for running a callback after list of properties have value different from `undefined`.
 
